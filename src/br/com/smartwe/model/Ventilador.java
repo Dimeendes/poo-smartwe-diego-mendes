@@ -9,10 +9,10 @@ public class Ventilador {
     private int velocidade; //Atributo novo para o método definirVelocidade
 
     public Ventilador(String modelo, double potenciaWh, int tamanhoCm) {
-        this.setModelo(modelo);
+        this.modelo = modelo;
         this.setPotenciaWh(potenciaWh);
-        this.setTamanhoCm(tamanhoCm);
-        this.setFuncao("Ventilacao");
+        this.tamanhoCm = tamanhoCm;
+        this.funcao = "Ventilacao";
         this.setTemporizadorMinutos(0);
         this.setVelocidade(0);
     }
